@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import './globals.css'
-import Navbar from './components/Navbar'
+import Navbar from '../components/Navbar'
+import { usePathname } from 'next/navigation'
 
 
 export const metadata: Metadata = {
